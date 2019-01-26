@@ -1,0 +1,221 @@
+@font-face {
+  font-family: Proxima;
+  src: url('fonts/ProximaNova-Light.otf');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+body {
+	 font-family:Proxima;
+    background-color: #d4feb4;
+    color: #262d20;
+}
+
+.header {
+    background-color: inherit;
+    padding: 15px;
+    text-align: center;
+}
+
+.main {
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px 20px;
+    min-height: auto;
+    background-color: #fff;
+}
+
+.btn {
+    background-color: #d4feb4;
+    color: #2e3428;
+    padding: 10px;
+    text-align: center;
+    float: right;
+    border: none;
+}
+
+.inner-data {
+    width: 80%;
+    margin: 0 auto;
+    height: auto;
+}
+
+
+.img-thumb {
+    float: left;
+    width: 10%;
+}
+
+.refresh {
+    float: right;
+    padding: 20px;
+    font-size: 15px;
+}
+
+.img-description {
+    float: left;
+    width: 90%;
+}
+
+.div-thumb {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.searchbox {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+
+.col-img {
+    float: left;
+    width: 10%;
+}
+
+
+.col-desc {
+    float: left;
+    width: 90%;
+    padding-left: 15px;
+    line-height: 20px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 100%;
+    padding: 0 10px;
+    margin-bottom: 20px;
+}
+
+.row {
+    margin: 0 -5px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    min-height: 150px;
+
+}
+
+
+@media screen and (max-width: 768px) {
+    .column {
+        width: 50%;
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        padding: 16px;
+        min-height: 500px;
+    }
+
+    .col-desc {
+        float: none;
+        width: 100%;
+        padding: 10px;
+        line-height: 20px;
+    }
+
+    .col-img {
+        float: none;
+        width: 100%;
+    }
+
+    img {
+        width: 230px;
+        height: 100px;
+    }
+
+}
+
+@media screen and (max-width: 620px) {
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid #d4feb4;
+    float: left;
+    width: 90%;
+    background: #ffffff;
+}
+
+form.example button {
+    float: left;
+    width: 10%;
+    padding: 10px;
+    background: #d4feb4;
+    color: white;
+    font-size: 17px;
+    border: 1px solid #d4feb4;
+    border-left: none;
+    cursor: pointer;
+}
+
+form.example button:hover {
+    background: #d4feb4;
+}
+
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.title {
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.title-author {
+    font-weight: 400;
+    font-size: 1em;
+}
+
+.description {
+    font-weight: 400;
+    font-size: 0.8em;
+}
+
+.published {
+    font-weight: 400;
+    font-size: 0.8em;
+}
+
+img {
+    border: 1px solid #d4feb4;
+}
+
+
+@media only screen and (max-width:620px) {
+    .main {
+        width: 100%;
+    }
+}
